@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remotes -->
-    <remote name="PurpleVoyager401" fetch="https://github.com/PurpleVoyager401" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="MotoKONA" fetch="https://github.com/Motorola-Edge-Plus" clone-depth="1" />
     <!-- Repos -->
-    <project path="device/samsung/starqltechn" name="android_device_samsung_starqltechn" remote="PurpleVoyager401" revision="lineage-18.1-prebuilt" />
-    <project path="device/samsung/star2qltechn" name="android_device_samsung_star2qltechn" remote="PurpleVoyager401" revision="lineage-18.1-prebuilt" />
-    <project path="device/samsung/crownqltechn" name="android_device_samsung_crownqltechn" remote="PurpleVoyager401" revision="lineage-18.1-prebuilt" />
-    <project path="device/samsung/sdm845-common" name="android_device_samsung_sdm845-common" remote="PurpleVoyager401" revision="lineage-18.1" />
-    <project path="kernel/samsung/sdm845" name="android_kernel_samsung_sdm845" remote="PurpleVoyager401" revision="lineage-20" />
-    <project path="vendor/samsung/sdm845-common" name="proprietary_vendor_samsung_sdm845-common" remote="PurpleVoyager401" revision="lineage-18.1" />
-    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-18.1" />
-    <project path="device/samsung/slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" revision="lineage-18.1" />
+    <project path="device/motorola/burton" name="android_device_motorola_burton" remote="MotoKONA" revision="lineage-19.1" />
+    <project path="device/motorola/sm8250-common" name="android_device_motorola_sm8250-common" remote="MotoKONA" revision="lineage-19.1" />
+    <project path="kernel/motorola/sm8250" name="android_kernel_motorola_sm8250" remote="MotoKONA" revision="lineage-19.1-s-release" />
+    <project path="vendor/motorola" name="android_vendor_motorola" remote="MotoKONA" revision="lineage-19.1" />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="LineageOS" revision="lineage-19.1" />
+    <project path="hardware/motorola/qcom/audio" name="android_hardware_qcom_audio" remote="MotoKONA" revision="lineage-19.1-caf-sm8250" />
+    <project path="hardware/motorola/qcom/media" name="android_hardware_qcom_media" remote="MotoKONA" revision="lineage-19.1-caf-sm8250" />
 </manifest>
