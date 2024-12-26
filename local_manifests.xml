@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remotes -->
-    <remote name="PurpleVoyager401" fetch="https://github.com/PurpleVoyager401" clone-depth="1" />
+    <remote name="zeelog" fetch="https://github.com/zeelog" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     <!-- Repos -->
-    <project path="device/samsung/starqltechn" name="android_device_samsung_starqltechn" remote="PurpleVoyager401" revision="lineage-18.1-prebuilt" />
-    <project path="device/samsung/star2qltechn" name="android_device_samsung_star2qltechn" remote="PurpleVoyager401" revision="lineage-18.1-prebuilt" />
-    <project path="device/samsung/crownqltechn" name="android_device_samsung_crownqltechn" remote="PurpleVoyager401" revision="lineage-18.1-prebuilt" />
-    <project path="device/samsung/sdm845-common" name="android_device_samsung_sdm845-common" remote="PurpleVoyager401" revision="lineage-18.1" />
-    <project path="kernel/samsung/sdm845" name="android_kernel_samsung_sdm845" remote="PurpleVoyager401" revision="lineage-20" />
-    <project path="vendor/samsung/sdm845-common" name="proprietary_vendor_samsung_sdm845-common" remote="PurpleVoyager401" revision="lineage-18.1" />
-    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-18.1" />
-    <project path="device/samsung/slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" revision="lineage-18.1" />
+    <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="zeelog" revision="lineage-20.0" />
+    <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-20.0" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-20.0" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20.0" />
 </manifest>
